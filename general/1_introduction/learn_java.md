@@ -14,7 +14,8 @@ We use Java for all of our code in FRC. If you have no programming experience or
   - Lessons "Home" through "Data Types"
   - If you want to learn about Java classes, the "Java Classes" lessons are very all-encompassing
 # Videos
-- [Java Tutorial](https://www.youtube.com/watch?v=eIrMbAQSU34)
+ - [Java Tutorial (short and sweet)](https://youtu.be/RRubcjpTkks?si=DwIIjENzA_55SHEL)
+- [More in depth Java Tutorial](https://www.youtube.com/watch?v=eIrMbAQSU34)
 
 # Interactive
 - [Code Wars](https://www.codewars.com/)
