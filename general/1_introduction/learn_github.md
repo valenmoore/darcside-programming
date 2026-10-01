@@ -21,6 +21,8 @@ When you have a task to do, you always want to work on a new or existing branch 
 - Select the branch you want to make a new branch off of, then click 'New branch from...'
     - Make sure the branch is updated first -- if there's a small blue arrow, checkout the branch and click 'Update Project'
 ![Checkout branch](images/new-branch.png)
-or
+
+OR
+
 - Go to the issue in GitHub and click 'Create a branch for this issue'. Then go to IntelliJ, click 'Update Project' and checkout that branch
 ![Branch from issue](images/new-branch-from-issue.png)
