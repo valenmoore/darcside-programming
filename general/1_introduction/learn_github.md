@@ -20,9 +20,9 @@ When working on different parts of the robot, we might want to have different ve
 When you have a task to do, you always want to work on a new or existing branch that is NOT the main branch. We will have a branch that contains fully verified, working code (usually it will be called "production", "main" or something similar), so we don't want any untested code in that branch. To work on a task, you want to make a new branch off of main and give it a name for whatever task you are working on (for example, "fix-intake-jamming" or "improve-shooter-aim"). To do that you can:
 - Select the branch you want to make a new branch off of, then click 'New branch from...'
     - Make sure the branch is updated first -- if there's a small blue arrow, checkout the branch and click 'Update Project'
-![Checkout branch](images/new-branch.png)
+![Checkout branch](/images/new-branch.png)
 
 OR
 
 - Go to the issue in GitHub and click 'Create a branch for this issue'. Then go to IntelliJ, click 'Update Project' and checkout that branch
-![Branch from issue](images/new-branch-from-issue.png)
+![Branch from issue](/images/new-branch-from-issue.png)
