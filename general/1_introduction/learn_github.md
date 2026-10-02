@@ -2,7 +2,12 @@
 
 Github is the version control we use for our codebase, kind of like Google Docs for code. It allows us to collaborate on the same project (repository) from different computers.
 
-Here are a few links to somewhat-useful articles about GitHub: [About GitHub](https://docs.github.com/en/get-started/using-git/about-git), [GitHub for FRC](https://docs.wpilib.org/en/latest/docs/software/basic-programming/git-getting-started.html). 
+### Articles
+- [About GitHub](https://docs.github.com/en/get-started/using-git/about-git)
+- [GitHub for FRC](https://docs.wpilib.org/en/latest/docs/software/basic-programming/git-getting-started.html).
+
+### Videos
+- [Super Quick Intro - pretty good](https://www.youtube.com/watch?v=hwP7WQkmECE)
 
 ## Basics
 These links go into a little more detail than we need, but the basics are that we have a repository of code, which contains all of our files. Rather than staying only on one person's computer, all of the files stay on GitHub, and each member of the programming team has a folder on their computer that's a copy of what's in GitHub.
