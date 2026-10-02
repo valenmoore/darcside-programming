@@ -8,6 +8,8 @@ This is an example of the different files in our intake subsystem
 
 ![intake_folder.png](../../images/intake_folder.png)
 
+
+### IntakeIO, IntakeIOSim, and IntakeIOSpark
 First, we have IntakeIO. This is an interface. We need an interface so we can switch between our simulation and real world code.
 
 ![intakeio_spark_implement.png](../../images/intakeio_spark_implement.png)
@@ -22,3 +24,11 @@ Both IntakeIOSim and IntakeIOSpark will define `deployIntake()`. One will use re
 
 ### What does each one do?
 IntakeIOSpark is the link between hardware and software. We define motor related things here (like encoders) and create methods to track a motor's position, temperature, and voltage. 
+IntakeIOSim links the code to simulated motors, tracking theoretical position instead. 
+
+### Intake
+Next, we have Intake. This is where methods to handle logic are put such as `isDeployed()`, which checks whether the intake is deployed or not and returns true or false. 
+
+In here, we also have methods that can set motor positions such as `setActuatorTargetPosition()`and motor voltages like `setRollerVoltage()`. These methods can be used in commands that combine multiple steps (more on this later). 
+
+This class also contains the `periodic()` method. This method runs continuously when the robot is enabled. It calls methods like intakeIO's `updateInputs()` which need to be updated continuously. 
