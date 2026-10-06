@@ -1,6 +1,12 @@
 # Learning Java/Programming
 
-We use Java for all of our code in FRC. If you have no programming experience or experience in Java, that's totally fine. Here are some online resources of different varieties:
+We use Java for all of our code in FRC. If you have no programming experience or experience in Java, that's totally fine. Here are some online resources of different varieties. Once you feel comfortable with these things:
+- [ ] Java syntax
+- [ ] How variables and data types work in Java
+- [ ] How to create classes in Java
+- [ ] How to create functions with inputs and outputs in Java
+
+move on to the [object oriented programming](./object_oriented_programming.md) file.
 
 ## Self-paced virtual lessons
 

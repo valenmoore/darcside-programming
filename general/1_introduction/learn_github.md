@@ -2,7 +2,12 @@
 
 Github is the version control we use for our codebase, kind of like Google Docs for code. It allows us to collaborate on the same project (repository) from different computers.
 
-Here are a few links to somewhat-useful articles about GitHub: [About GitHub](https://docs.github.com/en/get-started/using-git/about-git), [GitHub for FRC](https://docs.wpilib.org/en/latest/docs/software/basic-programming/git-getting-started.html). 
+### Articles
+- [About GitHub](https://docs.github.com/en/get-started/using-git/about-git)
+- [GitHub for FRC](https://docs.wpilib.org/en/latest/docs/software/basic-programming/git-getting-started.html).
+
+### Videos
+- [Super Quick Intro - pretty good](https://www.youtube.com/watch?v=hwP7WQkmECE)
 
 ## Basics
 These links go into a little more detail than we need, but the basics are that we have a repository of code, which contains all of our files. Rather than staying only on one person's computer, all of the files stay on GitHub, and each member of the programming team has a folder on their computer that's a copy of what's in GitHub.
@@ -20,9 +25,9 @@ When working on different parts of the robot, we might want to have different ve
 When you have a task to do, you always want to work on a new or existing branch that is NOT the main branch. We will have a branch that contains fully verified, working code (usually it will be called "production", "main" or something similar), so we don't want any untested code in that branch. To work on a task, you want to make a new branch off of main and give it a name for whatever task you are working on (for example, "fix-intake-jamming" or "improve-shooter-aim"). To do that you can:
 - Select the branch you want to make a new branch off of, then click 'New branch from...'
     - Make sure the branch is updated first -- if there's a small blue arrow, checkout the branch and click 'Update Project'
-![Checkout branch](images/new-branch.png)
+![Checkout branch](/images/new-branch.png)
 
 OR
 
 - Go to the issue in GitHub and click 'Create a branch for this issue'. Then go to IntelliJ, click 'Update Project' and checkout that branch
-![Branch from issue](images/new-branch-from-issue.png)
+![Branch from issue](/images/new-branch-from-issue.png)
