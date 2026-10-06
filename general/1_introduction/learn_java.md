@@ -13,6 +13,7 @@ We use Java for all of our code in FRC. If you have no programming experience or
 - [W3 Schools](https://www.w3schools.com/java/)
   - Lessons "Home" through "Data Types"
   - If you want to learn about Java classes, the "Java Classes" lessons are very all-encompassing
+- https://frcsoftware.org/
 # Videos
  - [Java Tutorial (short and sweet)](https://youtu.be/RRubcjpTkks?si=DwIIjENzA_55SHEL)
 - [More in depth Java Tutorial](https://www.youtube.com/watch?v=eIrMbAQSU34)
